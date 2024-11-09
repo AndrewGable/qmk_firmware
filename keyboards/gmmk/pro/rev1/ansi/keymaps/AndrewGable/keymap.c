@@ -68,7 +68,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     };
 #endif
 
-
 bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     /* Turn LED on when caps lock is pressed */
     if (host_keyboard_led_state().caps_lock)  {
@@ -76,4 +75,3 @@ bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
     }
     return false;
 }
-
